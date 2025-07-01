@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<ItemPickupFilter>
+  <Item ItemName="Rotten Meat (HP -30%)" />
+  <Item ItemName="Mandragora (MP -30%)" />
+  <Item ItemName="Rotten Fruit Basket (HP/MP -30%)" />
+  <Item ItemName="Stale Cheese (Attack -30%)" />
+  <Item ItemName="Curdled Prawn (Defense -30%)" />
+  <Item ItemName="Rotten Potato (Speed -30%)" />
+  <Item ItemName="Deadly Apple (Poisoned)" />
+  <Item ItemName="Spicy Red Pepper (Burned)" />
+  <Item ItemName="Frostbite Herb (Frozen)" />
+  <Item ItemName="Electric Lizard Kabab (Electrocuted)" />
+  <Item ItemName="Snooze Mushroom (Sleep)" />
+  <Item ItemName="Expired Milk (Faint)" />
+  <Item ItemName="Rotten Meat (HP -30%)" />
+  <Item ItemName="Mandragora (MP -30%)" />
+  <Item ItemName="Rotten Fruit Basket (HP/MP -30%)" />
+  <Item ItemName="Stale Cheese (Attack -30%)" />
+  <Item ItemName="Curdled Prawn (Defense -30%)" />
+  <Item ItemName="Rotten Potato (Speed -30%)" />
+  <Item ItemName="Deadly Apple (Poisoned)" />
+  <Item ItemName="Spicy Red Pepper (Burned)" />
+  <Item ItemName="Frostbite Herb (Frozen)" />
+  <Item ItemName="Electric Lizard Kabab (Electrocuted)" />
+  <Item ItemName="Snooze Mushroom (Sleep)" />
+  <Item ItemName="Expired Milk (Faint)" />
+</ItemPickupFilter>

@@ -1,0 +1,221 @@
+<DNMaps>
+ 	<Map name="Prairie Town" ID="1" minlevel="0">
+   		<Portal type="exitTown" name="Shadow Forest" toID="2" option="0" minlevel="0"/>
+		<Portal type="npc" name="Mana Ridge" toID="5" npcname="Sene" x="458" y="-1690" z="-994"/>
+		<Portal type="npc" name="Calderock Village" toID="8" npcname="Sene" x="458" y="-1690" z="-994"/>
+  	</Map>
+  	<Map name="Shadow Forest" ID="2" minlevel="0">
+    		<Portal type="normal" name="Prairie Town" toID="1" />
+    		<Portal type="normal" name="Wind Forest" toID="3" />
+    		<Portal type="dungeon" name="Shadow Forest Path" toID="20001" minlevel="1">
+			<Dungeon name="Shadow Forest Trail" ID="51" minlevel="1" maxlevel="3"/>
+			<Dungeon name="Shadow Forest Core" ID="66" minlevel="5" maxlevel="7"/>
+    		</Portal>
+  	</Map>
+	<Map name="Wind Forest" ID="3" minlevel="0">
+		<Portal type="normal" name="Shadow Forest" toID="2"/>
+		<Portal type="dungeon" name="Wind Forest Temple" toID="20002">
+			<Dungeon name="Ancient Temple Ruins" ID="56" minlevel="3" maxlevel="5"/>
+			<Dungeon name="Ancient Temple Excavation Site" ID="71" minlevel="8" maxlevel="9"/>
+			<Dungeon name="Church Ruins" ID="142" minlevel="16" maxlevel="18"/>
+		</Portal>
+		<Portal type="dungeon" name="Catacombs Entrance" toID="20003">
+			<Dungeon name="Catacombs" ID="61" minlevel="5" maxlevel="7"/>
+			<Dungeon name="Catacombs Hall" ID="147" minlevel="16" maxlevel="18"/>
+		</Portal>
+		<Portal type="normal" name="Cristal Stream" toID="4"/>
+	</Map>
+	<Map name="Mana Ridge" ID="5" minlevel="0">
+		<Portal type="exitTown" name="Frost Hill" toID="6" option="0"/>
+		<Portal type="npc" name="Prairie Town" toID="1" npcname="Ticket Agent Iris" x="-3548" y="-367" z="2236"/>
+		<Portal type="npc" name="Calderock Village" toID="8" npcname="Ticket Agent Iris" x="-3548" y="-367" z="2236"/>
+	</Map>
+	<Map name="Frost Hill" ID="6" minlevel="0">
+		<Portal type="normal" name="Mana Ridge" toID="5"/>
+		<Portal type="dungeon" name="Frost Wind Valley Entrance" toID="20004">
+			<Dungeon name="Frost Wind Valley" ID="81" minlevel="1" maxlevel="3"/>
+			<Dungeon name="Frost Wind Forest" ID="96" minlevel="5" maxlevel="7"/>
+		</Portal>
+		<Portal type="normal" name="Blizzard Plain" toID="7"/>
+	</Map>
+	<Map name="Blizzard Plain" ID="7" minlevel="0">
+		<Portal type="normal" name="Cristal Stream" toID="4"/>
+		<Portal type="normal" name="Frost Hill" toID="6"/>
+		<Portal type="dungeon" name="Secret Path" toID="20005">
+			<Dungeon name="Parelina's Resting Place" ID="86" minlevel="3" maxlevel="5"/>
+			<Dungeon name="Marian's Shrine" ID="101" minlevel="8" maxlevel="9"/>
+			<Dungeon name="Orc Base Camp" ID="106" minlevel="10" maxlevel="12"/>
+			<Dungeon name="Dark Tower Magic Institute" ID="152" minlevel="18" maxlevel="20"/>
+		</Portal>
+		<Portal type="dungeon" name="Silent Monastery Gate" toID="20006">
+			<Dungeon name="Silent Monastery" ID="91" minlevel="5" maxlevel="7"/>
+			<Dungeon name="Silent Monastery Main Hall" ID="161" minlevel="18" maxlevel="20"/>
+		</Portal>
+	</Map>
+	<Map name="Cristal Stream" ID="4" minlevel="9">
+		<Portal type="dungeon" name="Sigh Canyon Entrance" toID="20008">
+			<Dungeon name="Sigh Canyon" ID="117" minlevel="10" maxlevel="12"/>
+			<Dungeon name="Road of No Return" ID="172" minlevel="20" maxlevel="22"/>
+		</Portal>
+		<Portal type="dungeon" name="Raiders' Den Entrance" toID="20007">
+			<Dungeon name="Raiders' Den" ID="112" minlevel="9" maxlevel="11"/>
+			<Dungeon name="Raiders Ambush Point" ID="136" minlevel="14" maxlevel="16"/>
+		</Portal>
+		<Portal type="normal" name="Calderock Village" toID="8"/>
+	</Map>
+	<Map name="Calderock Village" ID="8" minlevel="9">
+		<Portal type="exitTown" name="Gray Ruins" toID="9" option="0"/>
+		<Portal type="exitTown" name="Cristal Stream" toID="4" option="0"/>
+		<Portal type="exitTown" name="Wonderful Theme Park" toID="13621" option="0"/>
+		<Portal type="npc" name="Prairie Town" toID="1" npcname="Lorraine" x="-4475" y="-1839" z="-6435"/>
+		<Portal type="npc" name="Mana Ridge" toID="5" npcname="Lorraine" x="-4475" y="-1839" z="-6435"/>
+		<Portal type="npc" name="Saint Haven" toID="11" npcname="Ticket Agent Arnen" x="2778" y="-1678" z="2469"/>
+		<Portal type="npc" name="Lotus Marsh" toID="15" npcname="Ticket Agent Arnen" x="2778" y="-1678" z="2469"/>
+	</Map>
+	<Map name="Gray Ruins" ID="9" minlevel="9">
+		<Portal type="dungeon" name="Sanctuary Entrance" toID="20009">
+			<Dungeon name="Forest Sanctuary" ID="121" minlevel="12" maxlevel="14"/>
+			<Dungeon name="Sanctuary Core" ID="252" minlevel="22" maxlevel="24"/>
+		</Portal>
+		<Portal type="normal" name="Calderock Village" toID="8"/>
+		<Portal type="normal" name="Lower Ridge" toID="10"/>
+	</Map>
+	<Map name="Lower Ridge" ID="10" minlevel="9">
+		<Portal type="normal" name="Gray Ruins" toID="9"/>
+		<Portal type="dungeon" name="Forest of Death Entrance" toID="20011">
+			<Dungeon name="Forest of Death" ID="132" minlevel="12" maxlevel="14"/>
+			<Dungeon name="Death Basin" ID="242" minlevel="20" maxlevel="22"/>
+		</Portal>
+		<Portal type="dungeon" name="Forgotten Temple" toID="20010">
+			<Dungeon name="Sleepers' Temple" ID="126" minlevel="14" maxlevel="16"/>
+			<Dungeon name="Prayer's Resting Place" ID="262" minlevel="22" maxlevel="24"/>
+		</Portal>
+	</Map>
+	<Map name="Saint Haven" ID="11" minlevel="24">
+		<Portal type="exitTown" name="Saint Haven South Gate" toID="12" option="0"/>
+		<Portal type="exitTown" name="Foothills of Black Mountain" toID="13" option="0"/>
+		<Portal type="exitTown" name="Dark Gate" toID="30" option="0"/>
+		<Portal type="exitTown" name="Garden of Time and Space" toID="28" option="0"/>
+		<Portal type="exitTown" name="Wonderful Theme Park" toID="13622" option="0"/>
+		<Portal type="npc" name="Calderock Village" toID="8" npcname="Ticket Agent Sorene" x="-4531" y="455" z="50"/>
+		<Portal type="npc" name="Lotus Marsh" toID="15" npcname="Ticket Agent Sorene" x="-4531" y="455" z="50"/>
+	</Map>
+	<Map name="Hermalte Port" ID="12" minlevel="24">
+		<Portal type="normal" name="Saint Haven" toID="11"/>
+		<Portal type="dungeon" name="Dark Mine Access" toID="20013">
+			<Dungeon name="Dark Mines" ID="272" minlevel="24" maxlevel="26"/>
+			<Dungeon name="Collapsed Mine" ID="291" minlevel="28" maxlevel="30"/>
+			<Dungeon name="Road to Death City" ID="381" minlevel="34" maxlevel="36"/>
+			<Dungeon name="Gates to City of Death" ID="422" minlevel="36" maxlevel="38"/>
+			<Dungeon name="Nameless Tyrant Tomb" ID="441" minlevel="38" maxlevel="40"/>
+		</Portal>
+		<Portal type="dungeon" name="Charter Ship" toID="20015">
+			<Dungeon name="Forsaken Islet" ID="301" minlevel="26" maxlevel="28"/>
+			<Dungeon name="Forsaken Islet Core" ID="331" minlevel="32" maxlevel="34"/>
+			<Dungeon name="Sunken Cargo Vessel" ID="461" minlevel="34" maxlevel="36"/>
+			<Dungeon name="Captain Darlant's Base" ID="391" minlevel="38" maxlevel="40"/> 
+		</Portal>
+		<Portal type="dungeon" name="Ruined Riverbanks Path" toID="20017">
+			<Dungeon name="River Ruins" ID="322" minlevel="28" maxlevel="30"/>
+			<Dungeon name="Flooded Downstream Ruins" ID="342" minlevel="30" maxlevel="32"/>
+			<Dungeon name="Spirit Grave Tomb" ID="372" minlevel="32" maxlevel="34"/>
+			<Dungeon name="Ruins of Lost Time" ID="471" minlevel="36" maxlevel="38"/>
+		</Portal>
+		<Portal type="dungeon" name="Manticore Nest" toID="20012">
+			<Dungeon name="Manticore Nest" ID="0" minlevel="40" maxlevel="40"/>
+		</Portal>
+		<Portal type="normal" name="Riverwort Wharf" toID="14"/>
+		<Portal type="normal" name="Foothills of Black Mountain" toID="13"/>
+	</Map>
+	<Map name="Foothills of Black Mountain" ID="13" minlevel="24">
+		<Portal type="normal" name="Hermalte Port" toID="12"/>
+		<Portal type="normal" name="Saint Haven" toID="11"/>
+		<Portal type="dungeon" name="Lonely Forest Path" toID="20014">
+			<Dungeon name="Abandoned Welton Hollow" ID="312" minlevel="24" maxlevel="26"/>
+			<Dungeon name="Dried Marissa Spring" ID="352" minlevel="30" maxlevel="32"/>
+			<Dungeon name="Explosion zone in Withered Leaves Forest" ID="411" minlevel="36" maxlevel="38"/>
+			<Dungeon name="Ghost Town of Isolated Forest" ID="451" minlevel="38" maxlevel="40"/>
+		</Portal>
+		<Portal type="dungeon" name="Dark Overlord Gates" toID="20016">
+			<Dungeon name="Dark Overlord Keep" ID="281" minlevel="26" maxlevel="28"/>
+			<Dungeon name="Fortress of the Dark Overlord Army" ID="431" minlevel="28" maxlevel="30"/>
+			<Dungeon name="Dark Overlord Training Camp" ID="361" minlevel="30" maxlevel="32"/>
+			<Dungeon name="Dark Overlord Tower" ID="402" minlevel="34" maxlevel="36"/>
+		</Portal>
+		<Portal type="dungeon" name="Cerberus Nest" toID="20018">
+			<Dungeon name="Cerberus Nest" ID="0" minlevel="32" maxlevel="32"/>
+		</Portal>
+	</Map>
+	<Map name="Riverwort Wharf" ID="14" minlevel="40">
+		<Portal type="dungeon" name="Riverwort Ruins" toID="20022">
+			<Dungeon name="Riverwort Village Ruins" ID="511" minlevel="42" maxlevel="44"/>
+			<Dungeon name="Dragon Follower Base" ID="541" minlevel="46" maxlevel="48"/>
+			<Dungeon name="Valley of Blindness" ID="671" minlevel="40" maxlevel="50"/>
+			<Dungeon name="Queen's Garden" ID="681" minlevel="40" maxlevel="50"/>
+		</Portal>
+		<Portal type="normal" name="Lotus Marsh" toID="15"/>
+		<Portal type="dungeon" name="Entrance to Ancient Warehouse" toID="20021">
+			<Dungeon name="Ancient Library" ID="521" minlevel="40" maxlevel="42"/>
+			<Dungeon name="East Ancient Armory" ID="551" minlevel="44" maxlevel="46"/>
+			<Dungeon name="West Ancient Armory" ID="561" minlevel="48" maxlevel="50"/>
+		</Portal>
+		<Portal type="dungeon" name="Isla Village Entrance" toID="20025">
+			<Dungeon name="Ancient Treasure Warehouse" ID="571" minlevel="40" maxlevel="50"/>
+			<Dungeon name="Isla Native Village" ID="581" minlevel="40" maxlevel="50"/>
+			<Dungeon name="Floating Island Beach" ID="641" minlevel="40" maxlevel="50"/>
+			<Dungeon name="Floating Island Core" ID="651" minlevel="40" maxlevel="50"/>
+			<Dungeon name="Closed Ice Valley" ID="661" minlevel="40" maxlevel="50"/>
+		</Portal>
+		<Portal type="dungeon" name="Tel Rosa Gates" toID="20028">
+			<Dungeon name="Tel Rosa City" ID="731" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Arnute Canyon" ID="741" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Occupied Ancient Temple" ID="751" minlevel="50" maxlevel="60"/>
+		</Portal>
+		<Portal type="dungeon" name="Meteor Crash Site Entrance" toID="20023">
+			<Dungeon name="Mutant's Habitat" ID="591" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Meteor Crash Site Boundaries" ID="601" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Shadow of Evil Spirit" ID="611" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Meteor Crash Site Core" ID="631" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Encroached Temple Ruins" ID="621" minlevel="50" maxlevel="60"/>
+		</Portal>
+		<Portal type="dungeon" name="Tel Numara" toID="20027">
+			<Dungeon name="Miracle Altar Conservation Area" ID="691" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Madman's Laboratory" ID="700" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Intruder's Forward Base" ID="710" minlevel="50" maxlevel="60"/>
+			<Dungeon name="Tel Noir Temple" ID="721" minlevel="50" maxlevel="60"/>
+		</Portal>
+	</Map>
+	<Map name="Lotus Marsh" ID="15" minlevel="40">
+		<Portal type="exitTown" name="Riverwort Wharf" toID="14" option="0"/>
+		<Portal type="npc" name="Calderock Village" toID="8" npcname="Ticket Agent Karenne" x="6550" y="-84" z="660"/>
+		<Portal type="npc" name="Saint Haven" toID="11" npcname="Ticket Agent Karenne" x="6550" y="-84" z="660"/>
+	</Map>
+	<Map name="Wonderful Theme Park (Calderock Village)" ID="13621" minlevel="10">
+		<Portal type="normal" name="Calderock Village" toID="8"/>
+		<Portal type="dungeon" name="Boss Rush (Calderock Village)" toID="30002">
+			<Dungeon name="CV:Boss Rush (Prairie Town/Mana Ridge)" ID="13612" minlevel="10" maxlevel="23"/>
+			<Dungeon name="CV:Boss Rush (Calderock Village)" ID="13613" minlevel="24" maxlevel="39"/>
+			<Dungeon name="CV:Boss Rush (Saint Haven)" ID="13614" minlevel="40" maxlevel="60"/>
+		</Portal>
+		<Portal type="dungeon" name="Wonderful Theme Park (Calderock Village)" toID="30001">
+			<Dungeon name="CV:Bumpy Road" ID="13609" minlevel="20" maxlevel="60"/>
+			<Dungeon name="CV:Monastery Treasure Warehouse" ID="13608" minlevel="20" maxlevel="60"/>
+			<Dungeon name="CV:Warrior Goblin" ID="13606" minlevel="10" maxlevel="31"/>
+		</Portal>
+	</Map>
+	<Map name="Wonderful Theme Park (Saint Haven)" ID="13622" minlevel="10">
+		<Portal type="normal" name="Saint Haven" toID="11"/>
+		<Portal type="dungeon" name="Boss Rush (Saint Haven)" toID="30005">
+			<Dungeon name="SH:Boss Rush (Prairie Town/Mana Ridge)" ID="13612" minlevel="10" maxlevel="23"/>
+			<Dungeon name="SH:Boss Rush (Calderock Village)" ID="13613" minlevel="24" maxlevel="39"/>
+			<Dungeon name="SH:Boss Rush (Saint Haven)" ID="13614" minlevel="40" maxlevel="60"/>
+		</Portal>
+		<Portal type="dungeon" name="Wonderful Theme Park (Saint Haven)" toID="30004">
+			<Dungeon name="SH:Bumpy Road" ID="13609" minlevel="20" maxlevel="60"/>
+			<Dungeon name="SH:Monastery Treasure Warehouse" ID="13608" minlevel="20" maxlevel="60"/>
+			<Dungeon name="SH:Warrior Goblin" ID="13606" minlevel="10" maxlevel="31"/>
+			<Dungeon name="SH:Hessian Goblin" ID="13605" minlevel="32" maxlevel="49"/>
+			<Dungeon name="SH:Orc Kim's Strike" ID="13607" minlevel="32" maxlevel="49"/>
+		</Portal>
+	</Map>
+</DNMaps>

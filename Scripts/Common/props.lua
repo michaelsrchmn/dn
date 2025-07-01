@@ -1,0 +1,2 @@
+-- RC Prop IDs
+PROP_RC_CATACOMBS_HALL = 828

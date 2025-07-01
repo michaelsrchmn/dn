@@ -1,0 +1,8 @@
+<DNBotMBDungeons>
+	<MBDungeon name="Dried Marissa Spring" id="352" minlevel="24"/>
+	<MBDungeon name="Dark Tower Magic Institute" id="152" minlevel="16"/>
+	<MBDungeon name="Dark Overlord Keep" id="281" minlevel="24"/>
+	<MBDungeon name="Flooded Downstream Ruins" id="342" minlevel="24"/>
+	<MBDungeon name="Gates to City of Death" id="422" minlevel="32"/>
+	<MBDungeon name="Riverwort Village Ruins" id="511" minlevel="40"/>
+</DNBotMBDungeons>
