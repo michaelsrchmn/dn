@@ -1,0 +1,53 @@
+--Madman's Laboratory (700.lua)
+
+require "botWorker"
+function GetBotWorker()
+	local bW = BotWorker('70_1A')
+	if profileManager.bDungeonCompletionAB then
+		actorSelf:MoveForward(false)
+		bW:Wait(GetDungeonCompletionWait())
+	end
+	--[[---------Teleport-----------
+	bW:Teleport(-7684, 1449, 6121) 
+	bW:WalkTo(-7634, 1457, 7412) 
+	bW:Wait(3000)
+	bW:KillMobs(2000)
+	bW:Wait(2000)
+	bW:KillMobs(2000)
+	bW:Teleport(6124, 154, 7258) 
+	bW:Wait(2000)
+	bW:KillMobByName("Madam Caludia")
+	bW:KillMobs(2000)--]]
+	--------NON-Teleport--------
+	bW:IgnoreMobs(true)
+	bW:WalkTo(-9326, -687, -10864) 
+	bW:Wait(4000)
+	bW:IgnoreMobs(false)
+	bW:KillMobs(2000)
+	bW:IgnoreMobs(true)
+	bW:WalkTo(-7870, -745, -10023) 
+	bW:Wait(2000)
+	bW:WalkTo(-7073, -665, -10139) 
+	bW:IgnoreMobs(false)
+	bW:KillMobs(2000)
+	bW:WalkTo(-3819, -153, -7334)
+	bW:ForwardPropTime(2617, 1000)
+	bW:KillMobs(2000)
+	bW:WalkTo(6065, -594, -5176) 
+	bW:ForwardPropTime(524, 500)
+	bW:ForwardPropTime(2654, 1000)
+	bW:Wait(3000)
+	bW:KillMobs(2000)
+	bW:WalkTo(19, 729, 2194) 
+	bW:ForwardPropTime(526, 4000)
+	bW:WalkTo(-7983, 1455, 7365) 
+	bW:KillMobs(2000)
+	bW:Wait(2000)
+	bW:KillMobs(2000)
+	bW:WalkTo(-7721, 1457, 9200) 
+	bW:ForwardPropTime(2620, 4000)
+	bW:Wait(2000)
+	bW:KillMobByName("Madam Caludia")
+	bW:KillMobs(2000)
+	return bW
+end 

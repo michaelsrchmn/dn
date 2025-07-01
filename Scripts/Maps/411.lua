@@ -1,0 +1,37 @@
+-- Explosion zone in Withered Leaves Forest
+require "botWorker"
+function GetBotWorker()
+	local bW = BotWorker('41_1A')
+	if profileManager.bDungeonCompletionAB then
+		actorSelf:MoveForward(false)
+		bW:Wait(GetDungeonCompletionWait())
+	end
+	bW:MoveForward(-2666, 1621, -5478) 
+	bW:DestroyProp(1201)
+	bW:DestroyProp(193)
+	bW:MoveForward(-1769, 1347, -4655) 
+	bW:MoveForward(-1412, 1095, -4023) 
+	bW:KillMobs(1000)
+	bW:DestroyProp(911)
+	bW:DestroyProp(1353)
+	bW:DestroyProp(1139)
+	bW:WalkTo(-419, 901, -2961) 
+	bW:KillMobs(1500)
+	bW:WalkTo(-450, 882, -2783) 
+	--bW:Wait(3000)
+	bW:KillMobs(2000)
+	bW:WalkTo(15, 656, -1974) 
+	bW:KillMobs(2000)
+	bW:Wait(2000)
+	bW:WalkTo(520, 521, -800) 
+	bW:DestroyProp(1169)
+	bW:DestroyProp(1171)
+	bW:WalkTo(50, 410, -58) 
+	bW:Wait(2000)
+	bW:KillMobs(1500)
+	bW:WalkTo(-549, 404, 962) 
+	bW:WalkTo(-839, 550, 1965) 
+	bW:MoveForward(-318, 606, 3226) 
+	bW:Wait(5000)
+	return bW
+end
