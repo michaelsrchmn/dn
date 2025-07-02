@@ -1,0 +1,5 @@
+C:\Prototype\dn-main\DragonNestAutomationApp\obj\Debug\net48\DragonNestAutomationApp.csproj.AssemblyReference.cache
+C:\Prototype\dn-main\DragonNestAutomationApp\obj\Debug\net48\DragonNestAutomationApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Prototype\dn-main\DragonNestAutomationApp\obj\Debug\net48\DragonNestAutomationApp.AssemblyInfoInputs.cache
+C:\Prototype\dn-main\DragonNestAutomationApp\obj\Debug\net48\DragonNestAutomationApp.AssemblyInfo.cs
+C:\Prototype\dn-main\DragonNestAutomationApp\obj\Debug\net48\DragonNestAutomationApp.csproj.CoreCompileInputs.cache

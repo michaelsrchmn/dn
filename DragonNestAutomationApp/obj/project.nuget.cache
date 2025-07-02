@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zm/5NGDd0Lg=",
+  "success": true,
+  "projectFilePath": "C:\\Prototype\\dn-main\\DragonNestAutomationApp\\DragonNestAutomationApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\keralua\\1.4.4\\keralua.1.4.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\nlua\\1.7.5\\nlua.1.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
